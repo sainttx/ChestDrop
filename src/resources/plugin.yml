@@ -1,0 +1,12 @@
+name: ChestDrop
+version: 1.0
+description: A simple plugin that allows a chest to be dropped from a location
+author: SainttX
+
+main: io.vnet.chestdrop.ChestDropPlugin
+
+commands:
+  chestdrop:
+    description: Drop a chest from the sky
+    usage: |
+           /<command> <world> <x> <y> <z>
